@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
     <title>Document</title>
 </head>
 <body>
+    <section class="header">
+        <nav>
+            <h2>Epic Gamer Store</h2>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Boardgames</a></li>
+                    <li><a href="">Cardgames</a></li>
+                    <li><a href="">Accessories</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- About Us -->
+    <section class="home">
+        <div class="row">
+            <div class="home-col">
+                <h2>Boardgames</h2>
+            </div>
+            <div class="home-col">
+                <h2>Cardgames</h2>
+            </div>
+            <div class="home-col">
+                <h2>Accessories</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="row footer-row">
+            <div class="footer-col">
+                <div class="footer-content address">
+                    <h2>ABC street, XYZ CITY</h2>
+                </div>
+                <div class="footer-content contact-number">
+                    <h2>1234567890</h2>
+                    <p>Monday to Saturday, 8am to 6pm</p>
+                </div>
+                <div class="footer-content email">
+                    <h2>epicgamerstore@gmail.com</h2>
+                    <p>Email us your queries</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h2>Leave a comment!</h2>
+                <form action="form-handler.php" method="post">
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+           
+        </div>
+    </section>
     
 </body>
 </html>
